@@ -1,13 +1,16 @@
 $(document).ready(function(){
+    // shows current day in header using moment
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
+    // assign event listener to save button
     $(".saveBtn").on("click", function() {
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
+        // puts items in local storage
         localStorage.setItem(time, text);
     })
-
+    // gets any desciption text from local storage and displays it
     $("hour9 .description").val(localStorage.getItem("hour9"));
     $("hour10 .description").val(localStorage.getItem("hour10"));
     $("hour11 .description").val(localStorage.getItem("hour11"));
@@ -22,9 +25,11 @@ $(document).ready(function(){
 
         var currentHour = moment().hour();
 
+        // loop over time blocks
         $(".time-block").each(function() {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
 
+            // checks time and assigns css class
             if (blockHour < currentHour) {
                 $(this).addClass("past");
                 $(this).removeClass("future");
