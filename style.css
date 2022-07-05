@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -26,20 +26,20 @@ textarea {
 }
 
 .time-block {
-  text-align: center;
+  text-align: left;
   border-radius: 15px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 1px solid black;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-right: 1px solid #000000;
 }
 
 .past {
@@ -64,6 +64,7 @@ textarea {
   background-color: #06aed5;
   color: white;
 }
+
 
 .saveBtn i:hover {
   font-size: 20px;
