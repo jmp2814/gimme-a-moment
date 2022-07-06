@@ -10,7 +10,7 @@ $(document).ready(function(){
         // puts items in local storage
         localStorage.setItem(time, text);
     })
-    // gets any desciption text from local storage and displays it
+    // gets all desciptions from local storage and displays it
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
@@ -23,13 +23,14 @@ $(document).ready(function(){
 
     function hourTracker() {
 
+        // uses moment to get current hour in day
         var currentHour = moment().hour();
 
         // loop over time blocks
         $(".time-block").each(function() {
             var blockHour = parseInt($(this).attr("id").split("hour")[1]);
 
-            // checks time and assigns css class
+            // checks time and assigns css class based on currentHour
             if (blockHour < currentHour) {
                 $(this).addClass("past");
                 $(this).removeClass("future");
