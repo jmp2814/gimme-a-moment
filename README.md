@@ -36,11 +36,12 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Video demo of deployed application
+## Screenshots of deployed application
+![moment1](https://user-images.githubusercontent.com/103081923/177595022-2e10bab7-542e-41da-9102-323cb27b359f.png)
+![moment2](https://user-images.githubusercontent.com/103081923/177595024-e9c6b993-4a39-46f4-9ad2-325e82b312aa.png)
+![moment3](https://user-images.githubusercontent.com/103081923/177595030-261c39a9-0c9e-4a32-b702-c817951850fc.png)
+![moment4](https://user-images.githubusercontent.com/103081923/177595033-ad0b980a-d468-4482-af4d-aed5e4ee6ee7.png)
 
-
-
-https://user-images.githubusercontent.com/103081923/177590139-60ed24b2-7837-4bf9-90b7-15b2e493300b.mp4
 
 
 
