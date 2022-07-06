@@ -42,6 +42,9 @@ The following animation demonstrates the application functionality:
 ![moment3](https://user-images.githubusercontent.com/103081923/177595030-261c39a9-0c9e-4a32-b702-c817951850fc.png)
 ![moment4](https://user-images.githubusercontent.com/103081923/177595033-ad0b980a-d468-4482-af4d-aed5e4ee6ee7.png)
 
+## Link to deployed application 
+https://jmp2814.github.io/gimme-a-moment/
+
 
 
 
