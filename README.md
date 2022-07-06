@@ -36,6 +36,9 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
+## Video demo of deployed application
+<iframe src="https://drive.google.com/file/d/1oMI5gJNiUv7jPwMBSpFxk7QxEgJb5LXE/preview" width="640" height="480"></iframe>
+
 
 ## Grading Requirements
 

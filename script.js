@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // shows current day in header using moment
-    $("#currentDay").text(moment().format("dddd, MMMM Do"));
+    $("#currentDay").text(moment().format("dddd, MMMM Do, hh:mm:ss a"));
 
     // assign event listener to save button
     $(".saveBtn").on("click", function() {
